@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58239F532B9F6B6100526DC9 /* AbilityVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58239F522B9F6B6100526DC9 /* AbilityVideoView.swift */; };
 		5887296A2B9EAD2C00937162 /* Overwatch2_APIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588729692B9EAD2C00937162 /* Overwatch2_APIApp.swift */; };
 		5887296C2B9EAD2C00937162 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5887296B2B9EAD2C00937162 /* ContentView.swift */; };
 		5887296E2B9EAD2D00937162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5887296D2B9EAD2D00937162 /* Assets.xcassets */; };
 		588729712B9EAD2D00937162 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588729702B9EAD2D00937162 /* Preview Assets.xcassets */; };
+		5887297A2B9EADF400937162 /* HeroesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588729792B9EADF400937162 /* HeroesResponse.swift */; };
+		5887297C2B9EAEA400937162 /* HeroResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5887297B2B9EAEA400937162 /* HeroResponse.swift */; };
+		5887297E2B9EAFC900937162 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5887297D2B9EAFC900937162 /* NetworkManager.swift */; };
+		588729802B9EB16C00937162 /* HeroesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5887297F2B9EB16C00937162 /* HeroesRepository.swift */; };
+		588729822B9EB4A400937162 /* HeroesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588729812B9EB4A400937162 /* HeroesView.swift */; };
+		588729842B9EB4DF00937162 /* HeroesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588729832B9EB4DF00937162 /* HeroesViewModel.swift */; };
+		588729862B9EBAB800937162 /* HeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588729852B9EBAB800937162 /* HeroDetailView.swift */; };
+		5887298B2B9EBAF400937162 /* HeroDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5887298A2B9EBAF400937162 /* HeroDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58239F522B9F6B6100526DC9 /* AbilityVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityVideoView.swift; sourceTree = "<group>"; };
 		588729662B9EAD2C00937162 /* Overwatch2 API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Overwatch2 API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		588729692B9EAD2C00937162 /* Overwatch2_APIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overwatch2_APIApp.swift; sourceTree = "<group>"; };
 		5887296B2B9EAD2C00937162 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5887296D2B9EAD2D00937162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		588729702B9EAD2D00937162 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		588729792B9EADF400937162 /* HeroesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesResponse.swift; sourceTree = "<group>"; };
+		5887297B2B9EAEA400937162 /* HeroResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroResponse.swift; sourceTree = "<group>"; };
+		5887297D2B9EAFC900937162 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5887297F2B9EB16C00937162 /* HeroesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesRepository.swift; sourceTree = "<group>"; };
+		588729812B9EB4A400937162 /* HeroesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesView.swift; sourceTree = "<group>"; };
+		588729832B9EB4DF00937162 /* HeroesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewModel.swift; sourceTree = "<group>"; };
+		588729852B9EBAB800937162 /* HeroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailView.swift; sourceTree = "<group>"; };
+		5887298A2B9EBAF400937162 /* HeroDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58239F4D2B9F1BB500526DC9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5887297D2B9EAFC900937162 /* NetworkManager.swift */,
+				5887297F2B9EB16C00937162 /* HeroesRepository.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		5887295D2B9EAD2C00937162 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +78,11 @@
 		588729682B9EAD2C00937162 /* Overwatch2 API */ = {
 			isa = PBXGroup;
 			children = (
+				588729772B9EAD3600937162 /* Models */,
 				588729692B9EAD2C00937162 /* Overwatch2_APIApp.swift */,
-				5887296B2B9EAD2C00937162 /* ContentView.swift */,
+				58239F4D2B9F1BB500526DC9 /* Network */,
+				588729872B9EBABC00937162 /* View */,
+				588729882B9EBABF00937162 /* ViewModels */,
 				5887296D2B9EAD2D00937162 /* Assets.xcassets */,
 				5887296F2B9EAD2D00937162 /* Preview Content */,
 			);
@@ -65,6 +95,35 @@
 				588729702B9EAD2D00937162 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		588729772B9EAD3600937162 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				588729792B9EADF400937162 /* HeroesResponse.swift */,
+				5887297B2B9EAEA400937162 /* HeroResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		588729872B9EBABC00937162 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5887296B2B9EAD2C00937162 /* ContentView.swift */,
+				588729812B9EB4A400937162 /* HeroesView.swift */,
+				588729852B9EBAB800937162 /* HeroDetailView.swift */,
+				58239F522B9F6B6100526DC9 /* AbilityVideoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		588729882B9EBABF00937162 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				588729832B9EB4DF00937162 /* HeroesViewModel.swift */,
+				5887298A2B9EBAF400937162 /* HeroDetailViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5887297A2B9EADF400937162 /* HeroesResponse.swift in Sources */,
+				588729802B9EB16C00937162 /* HeroesRepository.swift in Sources */,
+				588729842B9EB4DF00937162 /* HeroesViewModel.swift in Sources */,
+				588729822B9EB4A400937162 /* HeroesView.swift in Sources */,
 				5887296C2B9EAD2C00937162 /* ContentView.swift in Sources */,
+				5887297E2B9EAFC900937162 /* NetworkManager.swift in Sources */,
+				5887297C2B9EAEA400937162 /* HeroResponse.swift in Sources */,
+				58239F532B9F6B6100526DC9 /* AbilityVideoView.swift in Sources */,
 				5887296A2B9EAD2C00937162 /* Overwatch2_APIApp.swift in Sources */,
+				588729862B9EBAB800937162 /* HeroDetailView.swift in Sources */,
+				5887298B2B9EBAF400937162 /* HeroDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
